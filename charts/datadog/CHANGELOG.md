@@ -1,5 +1,9 @@
 # Datadog changelog
 
+## 2.20.5
+
+* Add RBAC rules for Roles, RoleBindings, ClusterRoles, ClusterRoleBindings and ServiceAccounts in order to collect them in the Orchestrator Explorer from the Cluster-agent.
+
 ## 2.20.4
 
 * Skip KSM network policy creation when KSM creation is disabled.
