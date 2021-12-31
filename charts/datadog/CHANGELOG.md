@@ -1,5 +1,11 @@
 # Datadog changelog
 
+## 2.29.0
+
+* Add `datadog.prometheusScrape.version` parameter to choose the version of the openmetrics check that the Prometheus auto-discovery should instantiate by default.
+  It now defaults to `2`, which requires an agent 7.34+.
+  It can be explicitely set to `1` to restore the behaviour of previous versions.
+
 ## 2.28.11
 
 * Fix deprecation warning in examples caused by the `datadog.apm.enabled` parameter
